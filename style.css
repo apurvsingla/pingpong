@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding-top: 5px;
+}
+
+#container {
+    border: 1px transparent;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#upper {
+    border: 2px double black;
+    width: 10%;
+    height: 10px;
+    background-color: black;
+    border-radius: 5%;
+    position: relative;
+}
+
+#ball {
+    height: 93.5vh;
+}
+
+#b {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: teal;
+    position: absolute;
+    left: 5%;
+}
+
+#bottom {
+    border: 2px double purple;
+    width: 10%;
+    height: 10px;
+    background-color: purple;
+    border-radius: 5%;
+    position: relative;
+}
